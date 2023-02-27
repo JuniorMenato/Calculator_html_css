@@ -1,0 +1,79 @@
+html,
+body
+{
+    height: 100%;
+}
+
+body
+{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    background: linear-gradient(45deg,#a736a7,#b5aa4a);
+}
+
+.calc
+{
+    border: 1px solid #03a9f4;
+    background-color: #0000006b;
+    padding: 13px;
+    width: 302px;
+    margin: 0  auto;
+    box-shadow: 0 0 16px #0000006b;
+}
+
+input
+{
+    font-family: sans-serif;
+}
+
+input[type="button"],
+input[type="reset"]
+{
+    background-color: #e7e7e7;
+    border: 2px solid #8b8b8b;
+    width: 69px;
+    height: 69px;
+    margin: 0 3px 6px 0;
+    font-size: 40pt;
+    outline: none;
+    transition: all 300ms ease;
+}
+
+input[type="button"]:hover,
+input[type="reset"]:hover{
+    background-color: #a3a2a2;
+}
+
+input[type="button"]:active,
+input[type="reset"]:active{
+    background-color: blue;
+}
+
+input[type="textfield"]:hover{
+    box-shadow: 0 0 0 7px #65bbff ; 
+}
+
+input[type="textfield"]{
+    width: 281px;
+    padding: 6px;
+    font-size: 27pt;
+    outline: none;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 0 0 3px #949494;
+    transition: all 300ms ease;
+}
+
+form
+{
+    width: 100%;
+}
+
+.equal
+{
+    float: right;
+    padding: 145px 10px;
+    cursor: pointer;
+}
